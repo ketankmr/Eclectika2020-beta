@@ -64,6 +64,7 @@ a {
   .offcanvas-menu .site-wrap:before {
     opacity: 1;
     visibility: visible; }
+    
 
 .btn {
   position: relative;
@@ -508,6 +509,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top; }
+
   .site-blocks-cover.overlay {
     position: relative; }
     .site-blocks-cover.overlay:before {
@@ -633,7 +635,10 @@ a {
     font-size: 1rem; }
     .site-block-feature p:last-child {
       margin-bottom: 0; }
-
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
 .site-block-feature-2 .icon {
   font-size: 50px;
   position: relative;
@@ -1768,15 +1773,18 @@ figure figcaption {
 /*deepak*/
 .about-us{
   text-align: left;
+  padding-top: 50px;
 }
 .logo{
-  margin-top: 3%;
-  height:90%;
-  width: 80%;
+  margin-top: 7%;
+  height:80%;
+  width: 94%;
 }
+@media (min-width: 767.98px) {
 .sponsors{
      flex: 6 0 33.33333%;
      max-width: 19.333%;
+}
 }
 /*contact form*/
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
@@ -1888,3 +1896,14 @@ color: #f00;
 font-style: normal;
 }
 /*contact form*/
+@media (max-width: 767.98px) {
+  .col-xs-12{
+    max-width: 100%;
+  }
+  iframe{
+    max-width: 100%;
+  }
+  .team-member{
+   margin-left: 15%;
+  }
+  }
