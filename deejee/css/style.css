@@ -799,6 +799,9 @@ a {
       transition: .3s all ease; }
     .block-13 .owl-dots .owl-dot.active > span {
       background: #e3207b; }
+      .p-3{
+        height: 350px;
+      }
 
 .slide-one-item.home-slider .owl-nav {
   position: absolute !important;
