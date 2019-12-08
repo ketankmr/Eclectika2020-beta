@@ -1,6 +1,12 @@
 /* Base */
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: unset;
+}
+
+@media (min-width:768px) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 body {
