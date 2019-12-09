@@ -544,9 +544,8 @@ a {
   .site-blocks-cover h1 {
     font-weight: 900;
     color: #fff;
-    font-size: 4rem;
+    font-size: 30px;
     font-weight: normal;
-    letter-spacing: .1em;
     text-transform: uppercase; }
   .site-blocks-cover p {
     color: #fff;
